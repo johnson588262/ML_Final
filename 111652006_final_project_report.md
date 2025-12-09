@@ -181,8 +181,8 @@ $$x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}}$$
 
 2. **Sliding Window**  
    設定：
-   - 過去視窗長度：$L_{\text{past}} = 12$（1 小時）  
-   - 預測視窗長度：$L_{\text{future}} = 12$（1 小時）  
+   - 過去視窗長度：$L_{\text{past}} = 12$ （1 小時）  
+   - 預測視窗長度：$L_{\text{future}} = 12$ （1 小時）  
 
    對每一條時間序列建立樣本：
    - 輸入： $X \in \mathbb{R}^{L_{\text{past}} \times N}$  
